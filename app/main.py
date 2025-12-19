@@ -3,16 +3,12 @@
 from fastapi import FastAPI, Request
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
+from app.routers.views import router as views_router
 
-app = FastAPI()
+app = FastAPI(title="Cárcamo System Company")
 
 # Servir carpeta static
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
 
-# Servir carpeta template
-templates = Jinja2Templates(directory="app/templates")
+app.include_router(views_router)
 
-
-@app.get("/")
-def home(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
