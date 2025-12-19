@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cárcamo Systems</title>
-    <meta name="description" content="Cárcamo System Company - Desarrollo backend, APIs y sistemas tecnologicos confiables">
+    <title>Cárcamo Systems Company</title>
+    <meta name="description" content="Cárcamo Systems Company — Desarrollo backend, APIs y sistemas tecnológicos confiables.">
 
     <!-- Tipografía -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,34 +13,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/app/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
 
-    <!-- Favicon -->
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/static/img/favicon.svg">
     <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
-    <link rel="icon" sizes="16x16" href="/static/img/favicon-16x16.png">
-    <link rel="icon" sizes="32x32" href="/static/img/favicon-32x32.png">
-    <link rel="icon" sizes="192x192" href="/static/img/android-chrome-192x192.png">
-    <link rel="icon" sizes="512x512" href="/static/img/android-chrome-512x512.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.png">
 </head>
-<body>
 
-    <header class="header">
-        <div class="brand">
-            <img src="/static/img/logo.png" alt="Cárcamo Systems">
-            <div>
-                <h1>Cárcamo Systems</h1>
-                <span>Company</span>
+<body>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container">
+            <div class="brand">
+                <img src="/static/img/favicon.svg" alt="Cárcamo Systems logo" class="brand-logo">
+                <span class="brand-name">Cárcamo Systems</span>
             </div>
         </div>
     </header>
 
-    <main>
+    <!-- MAIN CONTENT -->
+    <main class="site-main">
         {% block content %}{% endblock %}
     </main>
 
-    <footer class="footer">
-        <p>© {{2023}} Cárcamo Systems Company</p>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© {{ 2025 }} Cárcamo Systems Company. Todos los derechos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
