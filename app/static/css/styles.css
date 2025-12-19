@@ -1,0 +1,38 @@
+:root {
+    --primary: #0B1F33;
+    --secundary: #1F2A37;
+    --accent: #22D3EE;
+    --white: #F9FAFB;
+    --muted: #9CA3AF;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+header, footer {
+    padding: 2rem;
+}
+
+.brand img {
+    width: 48px;
+}
+
+.hero {
+    padding: 4rem 2rem;
+    max-width: 900px;
+}
+
+.hero h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    color: var(--muted);
+    font-size: 1.1rem;
+}
