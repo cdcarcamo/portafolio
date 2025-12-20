@@ -23,11 +23,20 @@
 /* =========================
     BASE GLOBAL
    ========================= */
+
+html, body {
+    height: 100%; /*obliga al documento a usar todo el alto*/
+}
+
 body {
     font-family: var(--font-main);
     background-color: var(--color-primary);
     color: var(--color-light);
     line-height: 1.6;
+
+    /*Configuración para el Sticky Footer*/
+    display: flex;
+    flex-direction: column;
 }
 
 /* =========================
@@ -35,8 +44,9 @@ body {
    ========================= */
 .container {
     max-width: 1100px;
-    margin: 0 auto;
-    padding: 1.5rem;
+    margin: 0 auto; 
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 /* =========================
@@ -68,6 +78,7 @@ body {
    ========================= */
 .site-main {
     padding: 4rem 0;
+    flex: 1; /*Esto empuja el footer hacia abajo*/
 }
 
 /* =========================
@@ -94,6 +105,7 @@ body {
 .site-footer {
     background-color: var(--color-secondary);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 1.5rem 0;
 }
 
 .site-footer p {
