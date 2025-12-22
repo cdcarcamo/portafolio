@@ -116,3 +116,39 @@ body {
     color: var(--color-muted);
     text-align: center;
 }
+
+/* ==========================
+    ABOUT
+   ==========================*/
+.about{
+    background-color: var(--color-secondary);
+    padding: 4rem 0;
+    gap: 1.5rem;
+}
+
+.about h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.about-text {
+    max-width: 700px;
+    margin-bottom: 1rem;
+    color: var(--color-light);
+}
+
+/*.about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Espacio uniforme entre los parrafos
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+about.text {
+    line-height: 1.8;
+    color: var(--color-light);
+    padding-left: 1rem; /* para dar un toque 'bloquote' 
+    border-left: 2px solid var(--color-accent);
+}*/
