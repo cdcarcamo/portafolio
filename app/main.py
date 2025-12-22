@@ -6,7 +6,7 @@ from app.routers.views import router as views_router
 from pathlib import Path
 
 
-
+    
 
 app = FastAPI(title="Cárcamo System Company")
 
