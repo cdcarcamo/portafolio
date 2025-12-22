@@ -152,3 +152,46 @@ about.text {
     padding-left: 1rem; /* para dar un toque 'bloquote' 
     border-left: 2px solid var(--color-accent);
 }*/
+
+/* ==========================
+    SERVICES
+   ==========================*/
+.services {
+    padding: 4rem 0;
+}
+
+.services h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+.services-card {
+    background-color: var(--color-secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 02.s ease, border-color 02.s ease;
+}
+
+.services-card h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.services-card p {
+    font-size: 0.9rem;
+    color: var(--color-muted);
+}
+
+.services-card:hover {
+    transform: translateY((-4px));
+    border-color: var(--color-accent);
+}
