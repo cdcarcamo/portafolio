@@ -251,3 +251,50 @@ about.text {
     transform: translateY((-4px));
     border-color: var(--color-accent);
 }
+
+/* ==========================
+    STACK
+   ==========================*/
+.stack {
+    padding: 4rem 0;
+}
+
+.stack h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.stack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+.stack-group {
+    background-color: var(--color-secondary);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: transform 02.s ease, border-color 02.s ease;
+}
+
+.stack-group h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.stack-group ul {
+    list-style: none;
+}
+
+.stack-group li {
+    font-size: 0.95rem;
+    color: var(--color-muted);
+    margin-bottom: 0.4rem;
+}
+
+.stack-group:hover {
+    transform: translateY((-4px));
+    border-color: var(--color-accent);
+}
