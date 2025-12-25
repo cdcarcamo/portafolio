@@ -92,13 +92,18 @@ body {
 }
 
 .hero h2 {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
+.hero .accent {
+    color: var(--color-accent);
+}
+
 .hero p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    max-width: 600px;
     color: var(--color-muted);
 }
 
