@@ -298,3 +298,37 @@ about.text {
     transform: translateY((-4px));
     border-color: var(--color-accent);
 }
+
+/* =========================
+   CONTACT
+   ========================= */
+.contact {
+    background-color: var(--color-secondary);
+    padding: 4rem 0;
+}
+
+.contact h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.contact-text {
+    max-width: 600px;
+    color: var(--color-muted);
+    margin-bottom: 1.5rem;
+}
+
+.contact-list li {
+    margin-bottom: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.contact-list a {
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
