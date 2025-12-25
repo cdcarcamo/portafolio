@@ -1,0 +1,6 @@
+# Requerimientos del sistema
+
+fastapi
+uvicorn
+jinja2
+python-multipart
