@@ -1,2 +1,46 @@
 # portafolio
-Desarrollo de portafolio personal con tecnologias Backend, utilizando python, FastAPI, utilizando uvicorn como servidor y librerias "Jinja2" para plantillas HTML y "python-multipart" para formularios
+# Cárcamo Systems — Portafolio Profesional
+
+Portafolio personal enfocado en desarrollo backend, APIs y sistemas,
+construido con FastAPI y Jinja2.
+
+El objetivo de este proyecto es presentar de forma clara mi perfil
+técnico, experiencia y proyectos relacionados con automatización,
+procesamiento de datos y arquitectura backend.
+
+---
+
+# Tecnologías utilizadas
+
+- Python
+- FastAPI
+- Jinja2
+- HTML5 / CSS3
+- Git & GitHub
+
+---
+
+# Ejecución local
+
+1. Clona el repositorio:
+
+git clone https://github.com/tu-usuario/carcamo-systems-portfolio.git
+cd carcamo-systems-portfolio
+
+2. Crear entorno virtual
+
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+3. instala dependencias
+
+pip install -r requirements.txt
+
+4. Ejecuta el servidor
+   
+uvicorn app.main:app --reload
+
+5. abre en el navegador
+
+http://127.0.0.1:8000
