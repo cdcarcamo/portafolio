@@ -24,7 +24,7 @@ procesamiento de datos y arquitectura backend.
 
 1. Clona el repositorio:
 
-git clone https://github.com/tu-usuario/carcamo-systems-portfolio.git
+git clone https://github.com/cdcarcamo/portfolio.git
 cd carcamo-systems-portfolio
 
 2. Crear entorno virtual
